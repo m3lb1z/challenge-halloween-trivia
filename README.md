@@ -7,7 +7,7 @@
 
 ## Descripción
 
-Esta API permite la gestión un base de datos de preguntas sobre de mitos y leyendas de Halloween, almacenando atributos como categorías y niveles de dificultad. Está documentada con **Swagger** para facilitar su uso y pruebas.
+Esta API permite la gestión de una base de datos de preguntas sobre de mitos y leyendas de Halloween, almacenando atributos como categorías y niveles de dificultad. Está documentada con **Swagger** para facilitar su uso y pruebas.
 
 ## Características
 
