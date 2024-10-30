@@ -115,11 +115,11 @@ Agrega una nueva pregunta individual a la base de datos.
 
 **Campos obligatorios:**
 
-- `question': String  - El texto de la pregunta
-`'options': Array of Strings - Posibles respuestas (4 opciones)
-- `correctAnswer': String - Debe coincidir con una de las opciones
-- 'difficulty': String - Debe ser "EASY", "MEDIUM"o " HARD"
-- `category': String - La categoría de la pregunta
+- `question`: String - El texto de la pregunta
+- `options`: Array of Strings - Posibles respuestas (4 opciones)
+- `correctAnswer`: String - Debe coincidir con una de las opciones
+- `difficulty`: String - Debe ser "EASY", "MEDIUM"o " HARD"
+- `category`: String - La categoría de la pregunta
 
 ### Agregar Preguntas por Lotes
 
@@ -131,6 +131,7 @@ Permite agregar múltiples preguntas en una sola solicitud.
 
 ```json
 [
+  {...},
   {
     "question": "¿En qué fase lunar se transforma un hombre lobo?",
     "options": [
