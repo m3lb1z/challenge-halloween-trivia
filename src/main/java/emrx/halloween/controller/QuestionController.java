@@ -1,9 +1,11 @@
 package emrx.halloween.controller;
 
-import emrx.halloween.dto.QuestionDTO;
+import emrx.halloween.dto.question.QuestionDTO;
 import emrx.halloween.mapper.QuestionMapper;
+import emrx.halloween.model.DifficultyLevel;
 import emrx.halloween.model.Question;
 import emrx.halloween.service.QuestionService;
+import emrx.halloween.service.QuizService;
 import jakarta.validation.Valid;
 
 import java.util.List;
@@ -17,9 +19,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-
 
 @RestController
 @RequestMapping("/questions")
@@ -27,6 +26,9 @@ public class QuestionController {
 
     @Autowired
     private QuestionService questionService;
+
+    @Autowired
+    private QuizService quizService;
 
     @Autowired
     private QuestionMapper questionMapper;
@@ -85,5 +87,28 @@ public class QuestionController {
     public ResponseEntity<HttpStatus> deleteQuestion(@PathVariable Long id) {
         questionService.delete(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+
+    
+
+    @GetMapping("/quiz/categories")
+    public ResponseEntity<List<String>> findAllCategoriesNames() {
+        List<String> categories = quizService.findAllCategoriesNames();
+        return new ResponseEntity<>(categories, HttpStatus.OK);
+    }
+
+    @GetMapping("/quiz/difficulty-levels")
+    public ResponseEntity<List<String>> findAllDifficultyLevelsNames() {
+        List<String> difficultyLevels = quizService.findAllDifficultyLevelsNames();
+        return new ResponseEntity<>(difficultyLevels, HttpStatus.OK);
+    }
+
+    @GetMapping("/quiz/random")
+    public ResponseEntity<List<QuestionDTO>> findRandomQuestionsByDifficultyLevel(
+            @RequestParam(defaultValue = "EASY") String difficulty
+    ) {
+        List<Question> questions = quizService.findRandomQuestionsByDifficultyLevel(DifficultyLevel.valueOf(difficulty.toUpperCase()));
+        return new ResponseEntity<>(questionMapper.toDto(questions), HttpStatus.OK);
     }
 }

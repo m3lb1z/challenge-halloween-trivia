@@ -10,6 +10,8 @@ import java.util.List;
 
 public interface QuestionRepository extends JpaRepository<Question, Long> {
     
+    boolean existsByQuestion(String question);
+    
     long countByDifficultyLevel(DifficultyLevel difficultyLevel);
 
     @Query(value = """

@@ -1,6 +1,7 @@
 package emrx.halloween.service;
 
-import emrx.halloween.dto.QuestionDTO;
+import emrx.halloween.dto.question.QuestionDTO;
+import emrx.halloween.dto.question.validation.QuestionValidation;
 import emrx.halloween.mapper.QuestionMapper;
 import emrx.halloween.model.Category;
 import emrx.halloween.model.DifficultyLevel;
@@ -30,6 +31,9 @@ public class QuestionService {
     @Autowired
     private QuestionMapper questionMapper;
 
+    @Autowired
+    private List<QuestionValidation> questionValidations;
+
     public Page<Question> findAll(Pageable pageable) {
         return questionRepository.findAll(pageable);
     }
@@ -42,7 +46,7 @@ public class QuestionService {
     
     @Transactional
     public Question create(QuestionDTO question) {
-
+        questionValidations.forEach(validation -> validation.validate(question));
         Question newQuestion = questionMapper.toEntity(question);
         return questionRepository.save(newQuestion);
     }
@@ -54,7 +58,7 @@ public class QuestionService {
 
     @Transactional
     public Question update(Long id, QuestionDTO question) {
-
+        questionValidations.forEach(validation -> validation.validate(question));
         Optional<Question> optionalQuestion = questionRepository.findById(id);
         if (optionalQuestion.isPresent()) {
             Question existingQuestion = optionalQuestion.get();
