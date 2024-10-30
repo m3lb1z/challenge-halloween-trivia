@@ -1,0 +1,267 @@
+[
+  {
+    "question": "¿Cuál es la debilidad más conocida de los vampiros?",
+    "options": ["La luz del sol", "El agua", "El fuego", "El viento"],
+    "correctAnswer": "La luz del sol",
+    "difficulty": "EASY",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Qué objeto se usa tradicionalmente para repeler a un vampiro?",
+    "options": ["Cruz", "Espada", "Escudo", "Lanza"],
+    "correctAnswer": "Cruz",
+    "difficulty": "EASY",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Qué alimento es mortal para los vampiros?",
+    "options": ["Ajo", "Cebolla", "Pimienta", "Sal"],
+    "correctAnswer": "Ajo",
+    "difficulty": "EASY",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Cómo se mueven tradicionalmente los fantasmas?",
+    "options": ["Flotando", "Caminando", "Corriendo", "Saltando"],
+    "correctAnswer": "Flotando",
+    "difficulty": "EASY",
+    "category": "Fantasmas"
+  },
+  {
+    "question": "¿Qué preserva el cuerpo de una momia?",
+    "options": ["Vendas", "Ropa", "Sábanas", "Telas"],
+    "correctAnswer": "Vendas",
+    "difficulty": "EASY",
+    "category": "Momias"
+  },
+  {
+    "question": "¿Qué necesitan los zombis para sobrevivir según los mitos modernos?",
+    "options": ["Cerebros", "Sangre", "Carne", "Huesos"],
+    "correctAnswer": "Cerebros",
+    "difficulty": "EASY",
+    "category": "Zombis"
+  },
+  {
+    "question": "¿De qué color suelen representarse los esqueletos fantasmales?",
+    "options": ["Blanco", "Negro", "Rojo", "Verde"],
+    "correctAnswer": "Blanco",
+    "difficulty": "EASY",
+    "category": "Esqueletos"
+  },
+  {
+    "question": "¿Qué sonido característico hacen los esqueletos al moverse?",
+    "options": ["Traqueteo", "Silbido", "Gruñido", "Susurro"],
+    "correctAnswer": "Traqueteo",
+    "difficulty": "EASY",
+    "category": "Esqueletos"
+  },
+  {
+    "question": "¿En qué lugar suelen aparecer más los fantasmas?",
+    "options": ["Casas abandonadas", "Parques", "Playas", "Bosques"],
+    "correctAnswer": "Casas abandonadas",
+    "difficulty": "EASY",
+    "category": "Fantasmas"
+  },
+  {
+    "question": "¿Qué animal se asocia comúnmente con los vampiros?",
+    "options": ["Murciélago", "Búho", "Cuervo", "Lobo"],
+    "correctAnswer": "Murciélago",
+    "difficulty": "EASY",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿En qué antiguo proceso se utilizaba el natrón para momificar?",
+    "options": ["Egipcio", "Romano", "Griego", "Persa"],
+    "correctAnswer": "Egipcio",
+    "difficulty": "MEDIUM",
+    "category": "Momias"
+  },
+  {
+    "question": "¿Qué vampiro legendario inspiró la novela de Bram Stoker?",
+    "options": [
+      "Vlad el Empalador",
+      "Elizabeth Báthory",
+      "Nosferatu",
+      "Carmilla"
+    ],
+    "correctAnswer": "Vlad el Empalador",
+    "difficulty": "MEDIUM",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Qué fenómeno paranormal se asocia con temperaturas muy bajas?",
+    "options": [
+      "Presencia de fantasmas",
+      "Presencia de zombis",
+      "Presencia de vampiros",
+      "Presencia de momias"
+    ],
+    "correctAnswer": "Presencia de fantasmas",
+    "difficulty": "MEDIUM",
+    "category": "Fantasmas"
+  },
+  {
+    "question": "¿Qué ritual vudú se asocia con la creación de zombis?",
+    "options": [
+      "Ceremonia del polvo zombi",
+      "Danza de la muerte",
+      "Ritual de sangre",
+      "Conjuro lunar"
+    ],
+    "correctAnswer": "Ceremonia del polvo zombi",
+    "difficulty": "MEDIUM",
+    "category": "Zombis"
+  },
+  {
+    "question": "¿Qué órganos se removían durante la momificación egipcia?",
+    "options": [
+      "Todos excepto el corazón",
+      "Solo el cerebro",
+      "Solo los pulmones",
+      "Ningún órgano"
+    ],
+    "correctAnswer": "Todos excepto el corazón",
+    "difficulty": "MEDIUM",
+    "category": "Momias"
+  },
+  {
+    "question": "¿Qué instrumento musical se asocia tradicionalmente con los esqueletos?",
+    "options": ["Xilófono", "Tambor", "Flauta", "Violín"],
+    "correctAnswer": "Xilófono",
+    "difficulty": "MEDIUM",
+    "category": "Esqueletos"
+  },
+  {
+    "question": "¿Qué elemento se usa para detectar la presencia de fantasmas?",
+    "options": [
+      "EMF (Campo electromagnético)",
+      "Termómetro",
+      "Brújula",
+      "Reloj"
+    ],
+    "correctAnswer": "EMF (Campo electromagnético)",
+    "difficulty": "MEDIUM",
+    "category": "Fantasmas"
+  },
+  {
+    "question": "¿Qué tipo de sangre prefieren los vampiros según las leyendas modernas?",
+    "options": [
+      "Tipo O negativo",
+      "Tipo AB positivo",
+      "Tipo A positivo",
+      "Tipo B negativo"
+    ],
+    "correctAnswer": "Tipo O negativo",
+    "difficulty": "MEDIUM",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Qué sustancia química causa la rigidez en los zombis?",
+    "options": ["Tetrodotoxina", "Adrenalina", "Dopamina", "Serotonina"],
+    "correctAnswer": "Tetrodotoxina",
+    "difficulty": "MEDIUM",
+    "category": "Zombis"
+  },
+  {
+    "question": "¿Cuántos días duraba el proceso de momificación egipcia?",
+    "options": ["70", "30", "50", "90"],
+    "correctAnswer": "70",
+    "difficulty": "MEDIUM",
+    "category": "Momias"
+  },
+  {
+    "question": "¿Qué antigua civilización creía que los vampiros nacían con cola?",
+    "options": [
+      "Cultura búlgara",
+      "Cultura rumana",
+      "Cultura húngara",
+      "Cultura eslava"
+    ],
+    "correctAnswer": "Cultura búlgara",
+    "difficulty": "HARD",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Qué neurotoxina específica se utiliza en el ritual vudú para crear zombis?",
+    "options": [
+      "Tetrodotoxina del pez globo",
+      "Veneno de cobra",
+      "Toxina botulínica",
+      "Veneno de araña"
+    ],
+    "correctAnswer": "Tetrodotoxina del pez globo",
+    "difficulty": "HARD",
+    "category": "Zombis"
+  },
+  {
+    "question": "¿Qué teoría científica explica las apariciones de fantasmas según la parapsicología?",
+    "options": [
+      "Teoría de la energía residual",
+      "Teoría cuántica",
+      "Teoría electromagnética",
+      "Teoría térmica"
+    ],
+    "correctAnswer": "Teoría de la energía residual",
+    "difficulty": "HARD",
+    "category": "Fantasmas"
+  },
+  {
+    "question": "¿Qué antigua deidad egipcia inventó el proceso de momificación según la mitología?",
+    "options": ["Anubis", "Osiris", "Isis", "Ra"],
+    "correctAnswer": "Anubis",
+    "difficulty": "HARD",
+    "category": "Momias"
+  },
+  {
+    "question": "¿Qué ritual específico se necesita para despertar a un esqueleto guerrero según la nigromancia?",
+    "options": [
+      "Ritual de los huesos ancestrales",
+      "Llamado de la muerte",
+      "Despertar oscuro",
+      "Invocación lunar"
+    ],
+    "correctAnswer": "Ritual de los huesos ancestrales",
+    "difficulty": "HARD",
+    "category": "Esqueletos"
+  },
+  {
+    "question": "¿Qué componente químico específico del ajo repele a los vampiros según las leyendas científicas modernas?",
+    "options": ["Alicina", "Capsaicina", "Tiosulfato", "Quercetina"],
+    "correctAnswer": "Alicina",
+    "difficulty": "HARD",
+    "category": "Vampiros"
+  },
+  {
+    "question": "¿Qué fenómeno cuántico se asocia con la capacidad de los fantasmas de atravesar paredes?",
+    "options": [
+      "Efecto túnel cuántico",
+      "Entrelazamiento cuántico",
+      "Superposición cuántica",
+      "Decoherencia cuántica"
+    ],
+    "correctAnswer": "Efecto túnel cuántico",
+    "difficulty": "HARD",
+    "category": "Fantasmas"
+  },
+  {
+    "question": "¿Qué compuesto específico se usaba para preservar el cerebro en las momias que no se extraía?",
+    "options": ["Aceite de cedro", "Natrón", "Resina de pino", "Mirra"],
+    "correctAnswer": "Aceite de cedro",
+    "difficulty": "HARD",
+    "category": "Momias"
+  },
+  {
+    "question": "¿Qué virus ficticio es responsable del apocalipsis zombi en la mayoría de las historias modernas?",
+    "options": ["T-virus", "Virus Z", "Virus Solanum", "Virus N"],
+    "correctAnswer": "Virus Solanum",
+    "difficulty": "HARD",
+    "category": "Zombis"
+  },
+  {
+    "question": "¿Qué antiguo texto medieval describe primero la jerarquía de los esqueletos no muertos?",
+    "options": ["Necronomicón", "Malleus Maleficarum", "Picatrix", "Lemegeton"],
+    "correctAnswer": "Necronomicón",
+    "difficulty": "HARD",
+    "category": "Esqueletos"
+  }
+]

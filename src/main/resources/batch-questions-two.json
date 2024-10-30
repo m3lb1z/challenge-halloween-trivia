@@ -1,0 +1,262 @@
+[
+  {
+    "question": "¿En qué fase lunar se transforma un hombre lobo?",
+    "options": [
+      "Luna llena",
+      "Luna nueva",
+      "Cuarto menguante",
+      "Cuarto creciente"
+    ],
+    "correctAnswer": "Luna llena",
+    "difficulty": "EASY",
+    "category": "Hombres lobo"
+  },
+  {
+    "question": "¿Cuál es el elemento más asociado con las brujas?",
+    "options": ["Escoba voladora", "Varita", "Sombrero", "Caldero"],
+    "correctAnswer": "Escoba voladora",
+    "difficulty": "EASY",
+    "category": "Brujas"
+  },
+  {
+    "question": "¿Qué objeto usan principalmente los hechiceros para canalizar su magia?",
+    "options": ["Varita mágica", "Anillo", "Collar", "Brazalete"],
+    "correctAnswer": "Varita mágica",
+    "difficulty": "EASY",
+    "category": "Hechiceros"
+  },
+  {
+    "question": "¿Qué tipo de magia practican los nigromantes?",
+    "options": [
+      "Magia de muertos",
+      "Magia elemental",
+      "Magia curativa",
+      "Magia de luz"
+    ],
+    "correctAnswer": "Magia de muertos",
+    "difficulty": "EASY",
+    "category": "Nigromantes"
+  },
+  {
+    "question": "¿Qué objeto se usa tradicionalmente para invocar demonios?",
+    "options": ["Pentagramas", "Círculos", "Triángulos", "Cuadrados"],
+    "correctAnswer": "Pentagramas",
+    "difficulty": "EASY",
+    "category": "Demonios"
+  },
+  {
+    "question": "¿Qué actividad es característica de un poltergeist?",
+    "options": ["Mover objetos", "Susurrar", "Aparecer", "Gritar"],
+    "correctAnswer": "Mover objetos",
+    "difficulty": "EASY",
+    "category": "Poltergeists"
+  },
+  {
+    "question": "¿De qué tamaño son típicamente los trolls?",
+    "options": ["Gigantes", "Pequeños", "Medianos", "Variables"],
+    "correctAnswer": "Gigantes",
+    "difficulty": "EASY",
+    "category": "Trolls"
+  },
+  {
+    "question": "¿De qué material está hecho tradicionalmente un Golem?",
+    "options": ["Arcilla", "Piedra", "Madera", "Metal"],
+    "correctAnswer": "Arcilla",
+    "difficulty": "EASY",
+    "category": "Golem"
+  },
+  {
+    "question": "¿Qué característica física distintiva tiene el Mothman?",
+    "options": [
+      "Ojos rojos brillantes",
+      "Alas negras",
+      "Garras afiladas",
+      "Cola larga"
+    ],
+    "correctAnswer": "Ojos rojos brillantes",
+    "difficulty": "EASY",
+    "category": "Mothman"
+  },
+  {
+    "question": "¿Qué debilidad tienen los trolls según las leyendas nórdicas?",
+    "options": ["La luz solar", "El agua", "El fuego", "El hierro"],
+    "correctAnswer": "La luz solar",
+    "difficulty": "EASY",
+    "category": "Trolls"
+  },
+  {
+    "question": "¿Qué metal afecta a los hombres lobo según las leyendas?",
+    "options": ["Plata", "Oro", "Hierro", "Cobre"],
+    "correctAnswer": "Plata",
+    "difficulty": "MEDIUM",
+    "category": "Hombres lobo"
+  },
+  {
+    "question": "¿Qué famoso juicio de brujas ocurrió en 1692?",
+    "options": ["Salem", "Londres", "París", "Madrid"],
+    "correctAnswer": "Salem",
+    "difficulty": "MEDIUM",
+    "category": "Brujas"
+  },
+  {
+    "question": "¿Qué escuela de magia es más antigua según las leyendas?",
+    "options": ["Hermética", "Druídica", "Chamánica", "Védica"],
+    "correctAnswer": "Hermética",
+    "difficulty": "MEDIUM",
+    "category": "Hechiceros"
+  },
+  {
+    "question": "¿Qué libro antiguo es fundamental para la nigromancia?",
+    "options": ["Necronomicón", "Libro de las Sombras", "Grimorio", "Picatrix"],
+    "correctAnswer": "Necronomicón",
+    "difficulty": "MEDIUM",
+    "category": "Nigromantes"
+  },
+  {
+    "question": "¿Cuál es la jerarquía demoníaca según la Ars Goetia?",
+    "options": ["72 demonios", "66 demonios", "81 demonios", "99 demonios"],
+    "correctAnswer": "72 demonios",
+    "difficulty": "MEDIUM",
+    "category": "Demonios"
+  },
+  {
+    "question": "¿Qué edad suelen tener las personas que atraen actividad poltergeist?",
+    "options": ["Adolescentes", "Niños", "Adultos", "Ancianos"],
+    "correctAnswer": "Adolescentes",
+    "difficulty": "MEDIUM",
+    "category": "Poltergeists"
+  },
+  {
+    "question": "¿En qué mitología se originan los trolls?",
+    "options": ["Nórdica", "Celta", "Griega", "Romana"],
+    "correctAnswer": "Nórdica",
+    "difficulty": "MEDIUM",
+    "category": "Trolls"
+  },
+  {
+    "question": "¿Qué palabra hebrea da vida al Golem?",
+    "options": ["Emet", "Shalom", "Mazel", "Chai"],
+    "correctAnswer": "Emet",
+    "difficulty": "MEDIUM",
+    "category": "Golem"
+  },
+  {
+    "question": "¿En qué año fue el primer avistamiento documentado del Mothman?",
+    "options": ["1966", "1955", "1977", "1982"],
+    "correctAnswer": "1966",
+    "difficulty": "MEDIUM",
+    "category": "Mothman"
+  },
+  {
+    "question": "¿Qué ritual específico se usa para crear un hechizo de protección?",
+    "options": ["Círculo de sal", "Pentáculo", "Triángulo", "Hexágono"],
+    "correctAnswer": "Círculo de sal",
+    "difficulty": "MEDIUM",
+    "category": "Hechiceros"
+  },
+  {
+    "question": "¿Qué ritual específico del folklore eslavo puede curar la licantropía?",
+    "options": [
+      "Ritual de las nueve hierbas",
+      "Baño lunar",
+      "Sangre de lobo",
+      "Agua bendita"
+    ],
+    "correctAnswer": "Ritual de las nueve hierbas",
+    "difficulty": "HARD",
+    "category": "Hombres lobo"
+  },
+  {
+    "question": "¿Qué ingrediente secreto contenía el ungüento de vuelo de las brujas según los grimorios medievales?",
+    "options": ["Beleño negro", "Mandrágora", "Belladona", "Acónito"],
+    "correctAnswer": "Beleño negro",
+    "difficulty": "HARD",
+    "category": "Brujas"
+  },
+  {
+    "question": "¿Qué complejo ritual se requiere para convertirse en un hechicero según la tradición hermética?",
+    "options": [
+      "Iniciación Abramelin",
+      "Ritual de Sangre",
+      "Pacto Lunar",
+      "Ceremonia Solar"
+    ],
+    "correctAnswer": "Iniciación Abramelin",
+    "difficulty": "HARD",
+    "category": "Hechiceros"
+  },
+  {
+    "question": "¿Qué texto prohibido contiene los verdaderos nombres de los demonios mayores?",
+    "options": [
+      "Lemegeton",
+      "Grimorium Verum",
+      "Grand Grimoire",
+      "Pseudomonarchia Daemonum"
+    ],
+    "correctAnswer": "Lemegeton",
+    "difficulty": "HARD",
+    "category": "Demonios"
+  },
+  {
+    "question": "¿Qué antigua fórmula cabalística se usa para animar un Golem?",
+    "options": ["Shem ha-Mephorash", "Aleph-Bet", "Ein Sof", "Sefirot"],
+    "correctAnswer": "Shem ha-Mephorash",
+    "difficulty": "HARD",
+    "category": "Golem"
+  },
+  {
+    "question": "¿Qué teoría científica explica la manifestación de poltergeists según la parapsicología?",
+    "options": [
+      "Psicokinesis recurrente espontánea",
+      "Energía residual",
+      "Campo electromagnético",
+      "Resonancia cuántica"
+    ],
+    "correctAnswer": "Psicokinesis recurrente espontánea",
+    "difficulty": "HARD",
+    "category": "Poltergeists"
+  },
+  {
+    "question": "¿Qué ritual nigromante específico se usa para comunicarse con espíritus antiguos?",
+    "options": [
+      "Necromancia de Thessalia",
+      "Ritual Osiris",
+      "Ceremonia Plutón",
+      "Invocación Hades"
+    ],
+    "correctAnswer": "Necromancia de Thessalia",
+    "difficulty": "HARD",
+    "category": "Nigromantes"
+  },
+  {
+    "question": "¿Qué sustancia específica según las sagas nórdicas puede matar instantáneamente a un troll?",
+    "options": ["Eitr", "Mjöð", "Lögr", "Blóð"],
+    "correctAnswer": "Eitr",
+    "difficulty": "HARD",
+    "category": "Trolls"
+  },
+  {
+    "question": "¿Qué teoría científica explica las apariciones del Mothman según los criptozoólogos?",
+    "options": [
+      "Teoría del viajero dimensional",
+      "Mutación genética",
+      "Especie no descubierta",
+      "Fenómeno atmosférico"
+    ],
+    "correctAnswer": "Teoría del viajero dimensional",
+    "difficulty": "HARD",
+    "category": "Mothman"
+  },
+  {
+    "question": "¿Qué antigua maldición egipcia se usa para crear un vínculo con los muertos?",
+    "options": [
+      "Ritual de Anubis",
+      "Ceremonia de Osiris",
+      "Conjuro de Isis",
+      "Maldición de Set"
+    ],
+    "correctAnswer": "Ritual de Anubis",
+    "difficulty": "HARD",
+    "category": "Nigromantes"
+  }
+]
