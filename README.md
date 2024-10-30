@@ -225,4 +225,4 @@ Recupera una selección aleatoria de preguntas para formar un cuestionario.
 - Las preguntas deben tener 4 o 5 opciones
 - La respuesta correcta debe coincidir exactamente con una de las opciones proporcionadas
 - Las categorías deben ser relevantes para criaturas sobrenaturales / míticas
-- Los niveles de dificultad están estandarizados como: "FÁCIL"," MEDIO","DIFÍCIL"
+- Los niveles de dificultad están estandarizados como: "EASY"," MEDIUM","HARD"
