@@ -66,8 +66,7 @@ public class QuestionController {
 
     @PostMapping("batch")
     public ResponseEntity<Boolean> postMethodName(@RequestBody List<QuestionDTO> questions) {
-        List<Question> entities = questionMapper.toEntities(questions);
-        boolean request = questionService.saveAll(entities);  
+        boolean request = questionService.saveAll(questions);  
         return new ResponseEntity<>(request, HttpStatus.NO_CONTENT);
     }
     

@@ -51,8 +51,15 @@ public class QuestionService {
         return questionRepository.save(newQuestion);
     }
 
-    public boolean saveAll(List<Question> questions) {
-        questionRepository.saveAll(questions);
+    @Transactional
+    public boolean saveAll(List<QuestionDTO> questions) {
+        questions.stream().forEach(question -> {
+            questionValidations.forEach(validation -> validation.validate(question));
+        });
+        List<Question> questionsList = questions.stream()
+                .map(questionMapper::toEntity)
+                .toList();
+        questionRepository.saveAll(questionsList);
         return true;
     }
 
